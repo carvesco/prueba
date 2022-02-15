@@ -1,0 +1,9 @@
+.search-div {
+    width: 90%;
+  max-width: 25rem;
+  margin: 7rem auto;
+  text-align: center;
+  padding: 2rem;
+  border: 3px solid #7763FA;
+  border-radius: 2rem;
+}
