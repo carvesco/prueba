@@ -17,7 +17,7 @@ const MainPage = () => {
 
   const searchHandler=(e)=>{
     console.log(e.name);
-    history.push("/"+e.name);
+    history.push("/prueba/"+e.name);
   }
 
 

@@ -15,13 +15,13 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/" exact>
+        <Route path="/prueba" exact>
           <MainPage/>
         </Route>
-        <Route path="/:name" >
+        <Route path="/prueba/:name" >
           <ResultsPage/>
         </Route>
-        <Redirect to="/"/>
+        <Redirect to="/prueba"/>
       </Switch>
     </Router>
     );
